@@ -5,3 +5,7 @@ Docker is used to containers applications, helps running kubernetes/container or
 ex: to run mongodb
 
 ```docker run mongo```
+
+and to delete it try running
+
+```docker rmi mongo  --force```

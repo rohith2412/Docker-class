@@ -23,3 +23,5 @@ to see which all images are running in a container
 ```docker ps```
 
 Post mapping-
+
+```docker run -p 27017:27017 mongo```

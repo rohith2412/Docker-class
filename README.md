@@ -32,3 +32,9 @@ for getting inside the container
 
 creating a Dockerfilr
 root level file in projects named as ```Dockerfile```
+
+after creating dockerfile build the dockerfile
+```docker build -t hello--docker-app .```
+
+and then run it by 
+```docker run -p 3000:3000 hello--docker-app```

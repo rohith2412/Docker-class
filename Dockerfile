@@ -9,6 +9,7 @@ WORKDIR /app
 COPY ./index ./index.js 
 #or
 COPY . .
+#
 
 #installing dependinces
 RUN npm install

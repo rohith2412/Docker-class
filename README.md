@@ -38,3 +38,7 @@ after creating dockerfile build the dockerfile
 
 and then run it by 
 ```docker run -p 3000:3000 hello--docker-app```
+
+containers dont stoe datas locally so we have to mount it using ```volums```
+```docker volume create mongo_db_data```
+```docker run -p 27017:27017 -v mongo_db_data:/data/db mongo```
